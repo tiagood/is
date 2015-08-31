@@ -1,6 +1,6 @@
-package br.unibh.pessoas;
+package br.unibh.pessoas.entidades;
 
-public class Pessoa {
+public abstract  class Pessoa {
 	
 	//variavéis de instâncias 
 	private Long id;
