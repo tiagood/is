@@ -35,28 +35,31 @@ public class PessoaFisicaDAO implements DAO<PessoaFisica, Long> {
 		// TODO Auto-generated method stub
 		 
 		
-		List <Pessoa>
-		
+		List<PessoaFisica> listaPesoaFisica = new ArrayList<PessoaFisica>();
 		try {
-			RessultSet res = JDBCUtil.getConnection() .prepareStatement {
-				
-			"select *from tb_pessoa_fsica") .executeQuery();
 			
-		while (res.next()) }
+			String sql = "select * from pessoa_fisica";
+			ResultSet res = JDBCUtil.getConnection().
+					prepareStatement(sql).executeQuery();
 			
-			system.out
-				
+			while (res.next()) {
+				listaPesoaFisica.add(new PessoaFisica(
+						res.getLong("id"),
+						res.getString("nome"), 
+						res.getString("endereco"), 
+						res.getString("telefone"), 
+						res.getString("cpf"), 
+						res.getString("email"), 
+						res.getDate("data_nascimento"), 
+						res.getString("sexo")
+						));
 			}
-		} catch (Exception e){
+		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			
-			
 		}
-		
-		
-		
-		return null;
+		return listaPesoaFisica;
 	}
 
 }
