@@ -33,6 +33,29 @@ public class PessoaFisicaDAO implements DAO<PessoaFisica, Long> {
 	@Override
 	public List<PessoaFisica> findAll() {
 		// TODO Auto-generated method stub
+		 
+		
+		List <Pessoa>
+		
+		try {
+			RessultSet res = JDBCUtil.getConnection() .prepareStatement {
+				
+			"select *from tb_pessoa_fsica") .executeQuery();
+			
+		while (res.next()) }
+			
+			system.out
+				
+			}
+		} catch (Exception e){
+			e.printStackTrace();
+		} finally {
+			
+			
+		}
+		
+		
+		
 		return null;
 	}
 
