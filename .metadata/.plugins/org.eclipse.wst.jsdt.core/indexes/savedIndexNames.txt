@@ -1,8 +1,0 @@
-INDEX VERSION 1.3+/home/pedro/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1515732459.index
-3668571536.index
-1211141114.index
-3443801101.index
-157070279.index
-309287309.index
-2125266397.index
