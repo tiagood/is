@@ -5,7 +5,7 @@ public abstract  class Pessoa {
 	//variavéis de instâncias 
 	private Long id;
 	private String nome;
-	private String endereço;
+	private String endereco;
 	private String telefone;
 
 	
@@ -21,11 +21,11 @@ public abstract  class Pessoa {
 		this.nome = nome;
 	}
 	
-	public Pessoa(Long id, String nome, String endereço, String telefone) {
+	public Pessoa(Long id, String nome, String endereco, String telefone) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		this.endereço = endereço;
+		this.endereco = endereco;
 		this.telefone = telefone;
 	}
 	
@@ -43,11 +43,11 @@ public abstract  class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereço(String endereco) {
+		this.endereco = endereco;
 	}
 	public String getTelefone() {
 		return telefone;
@@ -59,7 +59,7 @@ public abstract  class Pessoa {
 	//Metodo toString
 	@Override
 	public String toString() {
-		return "Pessoa [id=" + id + ", nome=" + nome + ", endereço=" + endereço + ", telefone=" + telefone + "]";
+		return "Pessoa [id=" + id + ", nome=" + nome + ", endereco=" + endereco + ", telefone=" + telefone + "]";
 	}
 	
 

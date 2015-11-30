@@ -33,7 +33,7 @@ public class PessoaFisica extends Pessoa{
 	@Override
 	public String toString() {
 		return "PessoaFisica [cpf=" + cpf + ", email=" + email + ", dataNascimento=" + dataNascimento + ", sexo=" + sexo
-				+ ", getId()=" + getId() + ", getNome()=" + getNome() + ", getEndereço()=" + getEndereço()
+				+ ", getId()=" + getId() + ", getNome()=" + getNome() + ", getEndereço()=" + getEndereco()
 				+ ", getTelefone()=" + getTelefone() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + "]";
 	}
