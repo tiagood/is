@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MyResource.java&apos; to &apos;servicospessoas/src/main/java/br.unibh.servicospessoas.servicos&apos;&#x0A;- Original project: &apos;servicospessoas&apos;&#x0A;- Destination element: &apos;servicospessoas/src/main/java/br.unibh.servicospessoas.servicos&apos;&#x0A;- Original element: &apos;br.unibh.servicospessoas.MyResource.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;br.unibh.servicospessoas.servicos" element1="/src\/main\/java&lt;br.unibh.servicospessoas{MyResource.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1443990695717" units="1" version="1.0"/>
+</session>
